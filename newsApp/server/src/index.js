@@ -56,5 +56,5 @@ const server = new ApolloServer({
 
 // playground = postmanのGraphQL版
 server.listen().then(({ url }) => {
-  console.log(`${url} is working 🏃🏼‍♀️`);
+  console.log(`${url} is working 🏃🏼‍♀️💨`);
 });
