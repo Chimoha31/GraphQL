@@ -6,6 +6,7 @@ const prisma = new PrismaClient();
 
 async function main() {
   //schema.prismaのfileでLinkとしているから、以下もprisma.linkにしなければならない
+  // SQL文を知らなくても、create()メソッドを使うことでdatabaseに保存することができる
   const newLink = await prisma.link.create({
     data: {
       description: "Learn GraphQL at Udemy",
